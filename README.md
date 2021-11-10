@@ -1,6 +1,6 @@
 # Implementation of Artificial Neural Network (ANN) from Scratch
 
-**_This project is intended to learn Deep Learning core concepts. I've also deployed the same project by using CNN algorithm. You can find the deployed project **[here](https://github.com/abhishk12/Food-Nonfood-ImageClassifier)**_**
+**_This project is intended to learn Deep Learning core concepts. I've also deployed the same project by using CNN algorithm and **[tensorflow API](https://www.tensorflow.org/)**. You can find the deployed project **[here](https://github.com/abhishk12/Food-Nonfood-ImageClassifier)**_**
 
 ## Introduction
 
