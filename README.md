@@ -17,3 +17,6 @@ The dataset used for the project is **[Food-5K](https://www.epfl.ch/labs/mmspg/d
 
 ## Data Preprocessing
 The first step in data preprocessing is to convert the image into array of numbers which was done using OpenCV's [cv2.imread()](https://docs.opencv.org/3.4/d4/da8/group__imgcodecs.html#ga288b8b3da0892bd651fce07b3bbd3a56) function. After the conversion, the image was then resized to shape of `64 X 64 X 3`. Then the array was flattened to achieve a shape of `64*64*3 = (12288,m)` where "m" is the number of training examples. The last step in data preprocessing is to normalize the values in the flattened array. The normalization is done by dividing the array by `255`.
+
+## Modelling
+While initializing the parameters, I've used **"He weight initialization"** which simply divides the weights by `sqrt(2 / (No._of_neurons_in_previous_layer))`.
